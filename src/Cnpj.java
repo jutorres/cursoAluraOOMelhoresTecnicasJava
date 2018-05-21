@@ -42,5 +42,10 @@ public class Cnpj {
 	public int hashCode() {
         return this.valor.hashCode();
     }
+	
+	@Override
+	public String toString() {
+		return getValor();
+	}
 
 }

@@ -28,11 +28,11 @@ public class Divida {
 		this.total = total;
 	}
 
-	public Pagamentos getPagamentos() {
-		return pagamentos;
-	}
-
 	public double valorAPagar() {
 		return this.total - this.pagamentos.getValorPago();
+	}
+	
+	public void registra(Pagamento pagamento) {
+		pagamentos.registra(pagamento);
 	}
 }
