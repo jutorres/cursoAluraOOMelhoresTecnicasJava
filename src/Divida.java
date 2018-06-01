@@ -1,7 +1,8 @@
 public class Divida {
+	
 	private double total;
 	private String credor;
-	private Cnpj cnpjCredor;
+	private Documento documentoCredor;
 	private Pagamentos pagamentos = new Pagamentos();
 
 	public String getCredor() {
@@ -12,12 +13,12 @@ public class Divida {
 		return this.total;
 	}
 
-	public Cnpj getCnpjCredor() {
-		return this.cnpjCredor;
+	public Documento getDocumentoCredor() {
+		return this.documentoCredor;
 	}
 
-	public void setCnpjCredor(Cnpj cnpjCredor) {
-		this.cnpjCredor = cnpjCredor;
+	public void setDocumentoCredor(Documento documentoCredor) {
+		this.documentoCredor = documentoCredor;
 	}
 
 	public void setCredor(String credor) {

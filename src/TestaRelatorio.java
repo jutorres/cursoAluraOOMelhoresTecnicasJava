@@ -5,7 +5,7 @@ public class TestaRelatorio {
 	public static void main(String[] args) {
 		Divida divida = new Divida();
 		divida.setCredor("Credor 1");
-		divida.setCnpjCredor(new Cnpj("00.000.000/0001-01"));
+		divida.setDocumentoCredor(new Cnpj("00.000.000/0001-01"));
 		divida.setTotal(3000);
 
 		Pagamento pagamento1 = new Pagamento();
